@@ -3,14 +3,8 @@
  * remove this comment and start adding your styles to this file.
  */
 
-.box-shadow {
-	box-shadow: 0px 10px 35px 2px #eeeeee; /*THIS does not work as expected*/
-
-}
-
-.white {
-	color:#ffffff;	
-}
+/* general themes
+------------------------------------------ */
 
 html,body{
     height: 100%;
@@ -19,6 +13,30 @@ html,body{
 body {
 	background-image:url(../img/background_handwritten.jpg);
 }
+
+.box-shadow {
+	box-shadow: 0px 10px 35px 2px #eeeeee; /*THIS does not work as expected*/
+}
+
+/* special classes
+------------------------------------------ */
+
+.white {
+	color:#ffffff;	
+}
+
+/* custom toggle menu
+------------------------------------------- */
+
+.navbar-toggle, navbar-toggle:hover {
+
+  background-color: #585859;
+  border-color: #31347B;
+ }
+
+
+/* sticky footer
+------------------------------------------ */
 
 #holder{
     min-height: 100%;
@@ -37,18 +55,95 @@ body {
     bottom: 0; 
 }
 
-.navbar-toggle, navbar-toggle:hover {
-
-  background-color: #585859;
-  border-color: #31347B;
- }
+/* Layout 
+------------------------------------------- */
 
 .container {
 	padding-top:30px;	
 }
-/* Fonts */
+
+/* Headers
+-------------------------------------------- */
+
 h1.page-header {
 	font-family:Garamond;
 	font-weight:bold;
 	color:#333367;
+}
+
+/* Menus 
+--------------------------------------------- */
+ul.menu {
+	background-image:url(../img/bg_black.gif);
+    background-repeat:repeat;
+    padding:0 1em;
+    margin:0;
+    list-style-type: none;
+    overflow:auto; 
+}
+
+ul.menu li {
+	border-bottom:1px solid #444444;
+    list-style:none;
+    margin:0;
+    padding:0; 
+}
+
+ul.menu li.last {
+	border-bottom:none; 	
+}
+
+ul.menu li a {
+	margin:0;
+    padding:0.75em 0;
+    display:block;
+    color:#FFF;
+	
+	  /* Theoretically for IE 8 & 9 (more valid) */   
+    /* ...but not required as filter works too */
+    /* should come BEFORE filter */
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    
+    /* This works in IE 8 & 9 too */
+    /* ... but also 5, 6, 7 */
+    filter: alpha(opacity=50);
+    
+    /* Older than Firefox 0.9 */
+    -moz-opacity:0.5;
+    
+    /* Safari 1.x (pre WebKit!) */
+    -khtml-opacity: 0.5;
+    
+    /* Modern!
+    /* Firefox 0.9+, Safari 2?, Chrome any?
+    /* Opera 9+, IE 9+ */
+    opacity: 0.5;
+	}
+
+ul.menu li a:hover {
+	color:#FFF;
+     text-decoration:none;
+	 background-image:url(../img/bg_black.gif);
+     background-repeat:repeat;
+
+    /* Theoretically for IE 8 & 9 (more valid) */   
+    /* ...but not required as filter works too */
+    /* should come BEFORE filter */
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    
+    /* This works in IE 8 & 9 too */
+    /* ... but also 5, 6, 7 */
+    filter: alpha(opacity=100);
+    
+    /* Older than Firefox 0.9 */
+    -moz-opacity:1;
+    
+    /* Safari 1.x (pre WebKit!) */
+    -khtml-opacity: 1;
+    
+    /* Modern!
+    /* Firefox 0.9+, Safari 2?, Chrome any?
+    /* Opera 9+, IE 9+ */
+    opacity: 1;
+	
 }
