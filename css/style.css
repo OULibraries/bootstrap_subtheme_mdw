@@ -26,7 +26,7 @@ body {
 }
 
 #body{
-    padding-bottom: 200px;    /* height of footer */
+    padding-bottom: 220px;    /* height of footer */
 }
 
 .footer{
@@ -45,4 +45,10 @@ body {
 
 .container {
 	padding-top:30px;	
+}
+/* Fonts */
+h1.page-header {
+	font-family:Garamond;
+	font-weight:bold;
+	color:#333367;
 }
