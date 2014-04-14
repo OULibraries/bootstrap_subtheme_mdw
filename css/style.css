@@ -16,6 +16,10 @@ html,body{
     height: 100%;
 }
 
+body {
+	background-image:url(../img/background_handwritten.jpg);
+}
+
 #holder{
     min-height: 100%;
     position:relative;
