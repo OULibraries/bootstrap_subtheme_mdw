@@ -38,3 +38,7 @@ html,body{
   background-color: #585859;
   border-color: #31347B;
  }
+
+.container {
+	padding-top:30px;	
+}
