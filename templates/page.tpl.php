@@ -140,7 +140,7 @@
 <!-- body tag for stick footer -->
 <div id="body">
 
-<div class="main-container">
+<div class="main-container white_tran">
 
   <header role="banner" id="page-header">
     <?php if (!empty($site_slogan)): ?>

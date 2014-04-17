@@ -52,3 +52,13 @@ h1.page-header {
 	font-weight:bold;
 	color:#333367;
 }
+
+.white_tran {
+	 background-color: rgba(255, 255, 255, 0.5);
+	 padding:30px; 
+}
+
+p {
+	font-family:"Baskerville Old Face";
+	font-size:18px;
+}
