@@ -43,9 +43,8 @@ body {
   border-color: #31347B;
  }
 
-.container {
-	padding-top:30px;	
-}
+
+
 /* Fonts */
 h1.page-header {
 	font-family:Garamond;
@@ -54,11 +53,12 @@ h1.page-header {
 }
 
 .white_tran {
-	 background-color: rgba(255, 255, 255, 0.5);
+	 background-color: rgba(255, 255, 255, 0.7);
 	 padding:30px; 
+	 margin-top:20px;
 }
 
 p {
-	font-family:"Baskerville Old Face";
-	font-size:18px;
+	font-family:arial;
+	font-size:16px;
 }
