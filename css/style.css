@@ -62,3 +62,16 @@ p {
 	font-family:arial;
 	font-size:16px;
 }
+
+.columns {
+	float:left;	
+	width:45%;
+}
+
+.mright {
+	margin-right:20px;	
+}
+
+.fancy {
+		font-family:Garamond;
+}
