@@ -2,22 +2,26 @@
  * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
  * remove this comment and start adding your styles to this file.
  */
-
-.box-shadow {
-	box-shadow: 0px 10px 35px 2px #eeeeee; /*THIS does not work as expected*/
-
+ 
+ /* Global Template Styles */
+ html,body{
+    height: 100%;
 }
+ 
+ body {
+	background-color:#f3e8d1;
+}
+
+.white_tran {
+	 background-color: #ffffff;
+	 padding:30px; 
+	 margin-top:0px;
+}
+ 
+ /* Layout Styles */
 
 .white {
 	color:#ffffff;	
-}
-
-html,body{
-    height: 100%;
-}
-
-body {
-	background-color:#cccccc;
 }
 
 #holder{
@@ -43,7 +47,9 @@ body {
   border-color: #31347B;
  }
 
-
+.region-sidebar-first {
+	margin-top:30px;	
+}
 
 /* Fonts */
 h1.page-header {
@@ -52,11 +58,7 @@ h1.page-header {
 	color:#333367;
 }
 
-.white_tran {
-	 background-color: rgba(255, 255, 255, 1);
-	 padding:30px; 
-	 margin-top:0px;
-}
+
 
 p {
 	font-family:arial;
@@ -91,3 +93,14 @@ h4 {
 	font-weight:bold;
 }
 
+/* Banner Styles */
+
+#banner .block-title {
+	display:none;	
+}
+
+#banner {
+	margin-top:-30px;
+	margin-left:-30px;
+	margin-right:-30px;
+}

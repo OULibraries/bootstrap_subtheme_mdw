@@ -142,6 +142,12 @@
 
 <div class="main-container white_tran">
 
+<?php if ($page['banner']): ?>
+	<div id="banner" class="banner"><div class="section">
+    	<?php print render($page['banner']); ?>
+    </div></div> <!--- /.section  /#banner -->
+<?php endif; ?>
+
   <header role="banner" id="page-header">
     <?php if (!empty($site_slogan)): ?>
       <p class="lead"><?php print $site_slogan; ?></p>
