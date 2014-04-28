@@ -17,6 +17,7 @@
 	 padding:30px; 
 	 margin-top:0px;
 }
+
  
  /* Layout Styles */
 
@@ -50,16 +51,19 @@
 
 /* Fonts */
 h1.page-header {
-	font-family:garamond;
+	font-family:Garamond;
 	font-style:italic;
 	color:#333367;
+	font-size:28px;
+	font-weight:bold;
 }
 
 
 
 p {
 	font-family:arial;
-	font-size:14px;
+	font-size:13px;
+	color:#666;
 }
 
 .columns {
@@ -84,10 +88,21 @@ p {
 
 h4 {
 	line-height:28px;
+	color:#445676;
+	text-transform:capitalize;
+	border-bottom:1px solid #cccccc;
+	margin-top:30px;
 }
 
 .strong {
 	font-weight:bold;
+}
+
+.col-sm-3 .block-title {
+	font-size:18px;
+	border-bottom:1px solid #cccccc;
+	text-transform:capitalize;
+	font-family: Garamond;
 }
 
 /* Banner Styles */
