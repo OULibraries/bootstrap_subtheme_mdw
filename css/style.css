@@ -51,11 +51,18 @@
 
 /* Fonts */
 h1.page-header {
-	font-family:Garamond;
+	font-family:Georgia, "Times New Roman", Times, serif;
 	font-style:italic;
-	color:#333367;
+	color:#2f3a4b;
 	font-size:28px;
 	font-weight:bold;
+}
+
+a.pill {
+	background-image:url(../img/pill_button.jpg);
+	background-repeat:no-repeat;
+	padding:10px 20px 20px 12px;
+	color:#ffffff;	
 }
 
 
@@ -90,8 +97,18 @@ h4 {
 	line-height:28px;
 	color:#445676;
 	text-transform:capitalize;
-	border-bottom:1px solid #cccccc;
+	Border-left: 10px solid #5b739b;
+	padding:10px 0px 10px 20px;
 	margin-top:30px;
+	background-color:#f8f8f8;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:20px;
+}
+
+h3.subtitle {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	Border-left: 10px solid #5b739b; 	
+	padding-left:20px;
 }
 
 .strong {
@@ -99,11 +116,22 @@ h4 {
 }
 
 .col-sm-3 .block-title {
-	font-size:18px;
+	font-size:21px;
 	border-bottom:1px solid #cccccc;
-	text-transform:capitalize;
-	font-family: Garamond;
+	text-transform:uppercase;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:bold;
+	color:#2f3a4b;
 }
+
+li.leaf a:hover {
+	Border-left:10px solid #5b739b;	
+}
+
+li.leaf a {
+	Border-left:10px solid #f5f5f5;	
+}
+
 
 /* Banner Styles */
 
