@@ -73,7 +73,7 @@
  * @ingroup themeable
  */
 ?>
-<div id="holder">
+
 <!-- OU Global Navigation Bar -->
 <div class="globalheader">
 
@@ -137,8 +137,6 @@
       
 <div class="container">
  
-<!-- body tag for stick footer -->
-<div id="body">
 
 <div class="main-container white_tran">
 
@@ -198,8 +196,6 @@
 </div>
 </div>
 
-<!-- end body tag -->
-</div>
 
 <!-- ou global nav footer -->
   <div class="footer">
@@ -293,5 +289,5 @@
 </footer>
 
 <!-- footer -->
-</div>
+
 
